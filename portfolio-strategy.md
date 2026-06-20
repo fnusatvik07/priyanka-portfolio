@@ -20,7 +20,7 @@ Specialist **AI / LLM Engineer** with end-to-end ownership: research prototype �
 
 ## 3. Seniority level
 
-**Mid-level / specialist IC, fast trajectory.** Earlier enterprise QA/automation foundation at TCS (2016–2017), then a focused, recent pivot into Generative AI (2024→) with concrete production scope. The narrative to lead with is *depth and recency in GenAI*, supported by *engineering discipline from enterprise software*. Present as a credible, current AI engineer — not as "junior," and not overclaiming staff-level leadership the resume doesn't support.
+**Senior IC.** Now **Senior AI Engineer at Google (Mar 2026 →)** — the headline credential the site leads with. The trajectory is fast and legible: enterprise QA/automation foundation at TCS (2016–2017) → focused GenAI build-out (Genmantra 2024–2026, Innodata early 2026) → senior role at a top-tier AI org. Lead with *the Google title + recent, concrete production depth in GenAI*. The Google role currently carries title and dates only (no fabricated bullets); the most valuable next step is adding 2–4 real, non-confidential achievements once they exist.
 
 ## 4. Strongest differentiators (in priority order)
 

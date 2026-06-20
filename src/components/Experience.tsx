@@ -5,7 +5,7 @@ import type { ExperienceItem } from '../types/portfolio'
 function Role({ item, index }: { item: ExperienceItem; index: number }) {
   return (
     <Reveal delay={index * 0.04}>
-      <article className="relative pl-6 md:pl-8">
+      <article className="relative pb-10 pl-6 md:pl-8">
         {/* timeline rail */}
         <span
           aria-hidden
@@ -24,17 +24,19 @@ function Role({ item, index }: { item: ExperienceItem; index: number }) {
           </span>
         </div>
 
-        <ul className="mt-4 space-y-2.5">
-          {item.highlights.map((h, i) => (
-            <li key={i} className="flex gap-3 text-sm leading-relaxed text-[var(--color-ink-soft)]">
-              <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[var(--color-accent)]" />
-              <span>{h}</span>
-            </li>
-          ))}
-        </ul>
+        {item.highlights.length > 0 && (
+          <ul className="mt-4 space-y-2.5">
+            {item.highlights.map((h, i) => (
+              <li key={i} className="flex gap-3 text-sm leading-relaxed text-[var(--color-ink-soft)]">
+                <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-[var(--color-accent)]" />
+                <span>{h}</span>
+              </li>
+            ))}
+          </ul>
+        )}
 
         {item.technologies.length > 0 && (
-          <ul className="mt-5 flex flex-wrap gap-2 pb-10" aria-label="Technologies used">
+          <ul className="mt-5 flex flex-wrap gap-2" aria-label="Technologies used">
             {item.technologies.map((t) => (
               <li
                 key={t}

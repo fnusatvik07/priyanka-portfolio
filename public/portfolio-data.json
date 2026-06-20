@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Priyanka Neogi",
-    "label": "AI / LLM Engineer",
+    "label": "Senior AI Engineer",
     "headline": "Architecting production-grade AI systems across LLMs, agentic workflows, and Retrieval-Augmented Generation.",
     "positioning": "End-to-end ownership from research prototype to scalable deployment — multi-agent orchestration, advanced RAG, and LLM inference optimization.",
     "location": "India",
@@ -56,11 +56,21 @@
   ],
   "experience": [
     {
+      "company": "Google",
+      "role": "Senior AI Engineer",
+      "start": "Mar 2026",
+      "end": "Present",
+      "current": true,
+      "location": "",
+      "highlights": [],
+      "technologies": []
+    },
+    {
       "company": "Innodata Inc.",
       "role": "AI LLM Analyst",
       "start": "2026",
-      "end": "Present",
-      "current": true,
+      "end": "Feb 2026",
+      "current": false,
       "location": "",
       "highlights": [
         "Architected and optimized LLM generation pipelines using chain-of-thought, tree-of-thought, and ReAct-style reasoning across open-source and proprietary models to produce verifiable, high-fidelity outputs for complex, multi-constraint enterprise tasks.",
