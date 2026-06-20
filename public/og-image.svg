@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <path d="M0 158 H1200 M0 316 H1200 M0 474 H1200 M300 0 V630 M600 0 V630 M900 0 V630"/>
+  </g>
+  <rect x="80" y="84" width="64" height="64" rx="14" fill="#4338ca"/>
+  <text x="112" y="126" text-anchor="middle" font-family="monospace" font-size="26" font-weight="700" fill="#ffffff">PN</text>
+  <text x="80" y="300" font-family="'Inter', sans-serif" font-size="64" font-weight="700" fill="#0f172a">Priyanka Neogi</text>
+  <text x="80" y="360" font-family="monospace" font-size="26" letter-spacing="4" fill="#3730a3">AI / LLM ENGINEER</text>
+  <text x="80" y="445" font-family="'Inter', sans-serif" font-size="30" fill="#334155">Production-grade AI systems across LLMs, agentic</text>
+  <text x="80" y="487" font-family="'Inter', sans-serif" font-size="30" fill="#334155">workflows, and Retrieval-Augmented Generation.</text>
+  <g font-family="'Inter', sans-serif" font-size="22" fill="#334155">
+    <rect x="80" y="528" width="160" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="160" y="556" text-anchor="middle">RAG</text>
+    <rect x="256" y="528" width="190" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="351" y="556" text-anchor="middle">Agentic AI</text>
+    <rect x="462" y="528" width="180" height="44" rx="22" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="552" y="556" text-anchor="middle">LLMOps</text>
+  </g>
+</svg>

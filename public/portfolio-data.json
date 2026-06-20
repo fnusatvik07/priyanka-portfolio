@@ -1,0 +1,162 @@
+{
+  "basics": {
+    "name": "Priyanka Neogi",
+    "label": "AI / LLM Engineer",
+    "headline": "Architecting production-grade AI systems across LLMs, agentic workflows, and Retrieval-Augmented Generation.",
+    "positioning": "End-to-end ownership from research prototype to scalable deployment — multi-agent orchestration, advanced RAG, and LLM inference optimization.",
+    "location": "India",
+    "availability": "Open to AI / LLM engineering roles"
+  },
+  "summary": "AI engineer focused on production-grade systems built around Large Language Models, agentic AI, and Retrieval-Augmented Generation, with ownership spanning research prototyping through scalable deployment. Practical depth in multi-agent orchestration (LangGraph, CrewAI, MCP, A2A), advanced RAG architectures (GraphRAG, Corrective RAG, Adaptive RAG), LLM inference optimization, and open-source model serving (Ollama, vLLM), with a working emphasis on function-calling agents, structured output, long-context reasoning, and reliability. Builds real-world solutions in Python and FastAPI on containerized microservices.",
+  "skills": [
+    {
+      "category": "Programming & Backend",
+      "items": ["Python", "SQL", "FastAPI", "Pydantic", "REST APIs", "Async / Streaming", "Pytest"]
+    },
+    {
+      "category": "LLMs & Generative AI",
+      "items": ["Prompt Engineering", "System Prompt Design", "Few-shot & Zero-shot", "Chain-of-Thought", "Tree-of-Thought", "ReAct Reasoning", "Structured Output (JSON Mode / Function Calling)", "LLM-as-Judge", "Hallucination Mitigation", "Long-Context Reasoning", "Llama 3", "Mistral", "Gemma", "Ollama", "vLLM", "Groq"]
+    },
+    {
+      "category": "RAG Systems",
+      "items": ["End-to-End RAG Architecture", "Document Parsing (Unstructured, PyPDF)", "Chunking (fixed, recursive, semantic, parent-child)", "GraphRAG", "Corrective RAG (CRAG)", "Self-RAG", "Adaptive RAG", "Hybrid Retrieval (dense + BM25)", "Cross-Encoder Reranking", "Query Expansion & Decomposition", "Context Window Optimization", "Grounded Generation", "RAG Evaluation (RAGAS, DeepEval)"]
+    },
+    {
+      "category": "Agentic AI & Orchestration",
+      "items": ["LangChain", "LangGraph", "LlamaIndex", "CrewAI", "Google ADK", "DSPy", "Multi-Agent Orchestration", "Stateful Workflows", "Function Calling & Tool Use", "Autonomous Reasoning Loops", "MCP", "A2A Protocol", "Memory & State Management"]
+    },
+    {
+      "category": "Vector DBs & Embeddings",
+      "items": ["FAISS", "Chroma", "Qdrant", "Pinecone", "pgvector", "text-embedding-3-large", "multilingual-e5-large", "bge-reranker-v2-m3", "Sentence Transformers", "CLIP"]
+    },
+    {
+      "category": "Multimodal AI",
+      "items": ["Vision-Language Models", "Text–Image Embeddings", "Cross-Modal Retrieval", "Multimodal RAG"]
+    },
+    {
+      "category": "Machine Learning",
+      "items": ["Regression", "Classification", "Time Series Forecasting", "Gradient Boosting", "CNN", "RNN", "Transformer Architectures"]
+    },
+    {
+      "category": "LLM Optimization",
+      "items": ["LoRA", "QLoRA", "Quantization (GPTQ, AWQ, GGUF)", "Speculative Decoding", "KV-Cache Optimization", "vLLM", "Ollama"]
+    },
+    {
+      "category": "MLOps & Deployment",
+      "items": ["Docker", "CI/CD (GitHub Actions)", "Hugging Face Spaces", "Streamlit Cloud", "Gradio", "Render", "LangSmith", "Langfuse", "LiteLLM"]
+    },
+    {
+      "category": "Data & NLP",
+      "items": ["SpaCy", "Hugging Face Transformers", "Instructor", "Semantic Search", "Knowledge Graphs", "Entity Extraction"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "VS Code", "Selenium WebDriver", "Jupyter", "Weights & Biases", "Pytest"]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Innodata Inc.",
+      "role": "AI LLM Analyst",
+      "start": "2026",
+      "end": "Present",
+      "current": true,
+      "location": "",
+      "highlights": [
+        "Architected and optimized LLM generation pipelines using chain-of-thought, tree-of-thought, and ReAct-style reasoning across open-source and proprietary models to produce verifiable, high-fidelity outputs for complex, multi-constraint enterprise tasks.",
+        "Designed and benchmarked production RAG systems with hybrid retrieval (dense embeddings + BM25), cross-encoder reranking, and Corrective RAG patterns, reducing hallucination and improving factual grounding across domain-specific corpora.",
+        "Established LLM evaluation and observability frameworks using LLM-as-Judge scoring, RAGAS / DeepEval faithfulness and relevance metrics, and structured adversarial test suites to enforce production-grade reliability.",
+        "Built embedding-driven semantic pipelines for large-scale text classification, entity extraction, and cross-lingual information retrieval across multilingual datasets.",
+        "Led annotation strategy and data-quality workflows — structured labeling guidelines, inter-annotator agreement benchmarks, and continuous feedback-loop pipelines to improve instruction-following accuracy and output alignment."
+      ],
+      "technologies": ["Chain-of-Thought", "Tree-of-Thought", "ReAct", "Hybrid Retrieval", "Cross-Encoder Reranking", "Corrective RAG", "LLM-as-Judge", "RAGAS", "DeepEval"]
+    },
+    {
+      "company": "Genmantra Corp",
+      "role": "Generative AI Trainee Engineer",
+      "start": "2024",
+      "end": "2026",
+      "current": false,
+      "location": "",
+      "highlights": [
+        "Architected and shipped end-to-end RAG-based AI systems integrating LangChain, LangGraph, and LlamaIndex for stateful, multi-step reasoning workflows — including Adaptive RAG and Corrective RAG patterns for self-improving retrieval accuracy.",
+        "Built multi-agent AI architectures with configurable agent graphs supporting dynamic task decomposition, autonomous tool invocation via function calling, memory persistence, and inter-agent coordination using MCP and A2A patterns.",
+        "Implemented high-throughput vector search pipelines using FAISS, Chroma, Qdrant, and Pinecone with embedding models (multilingual-e5-large, text-embedding-3-large), achieving sub-second semantic retrieval across large-scale document indices.",
+        "Engineered multimodal retrieval systems using CLIP-based vision-language embeddings for cross-modal text-image understanding, enabling unified search across PDFs, images, and structured datasets within a single RAG pipeline.",
+        "Applied LLM compression and efficient serving (LoRA, QLoRA, GPTQ / AWQ quantization) and deployed optimized open-source models via Ollama and vLLM, benchmarking quality-latency tradeoffs against full-precision baselines.",
+        "Designed and deployed production-grade FastAPI microservices with async processing, SSE streaming, Pydantic-validated structured output (Instructor), and health-check endpoints — containerized with Docker and deployed via Hugging Face Spaces, Streamlit Cloud, and Render.",
+        "Established CI/CD pipelines using Docker and GitHub Actions with integrated model-evaluation gates, automated regression testing, and observability via LangSmith and Langfuse for traceable, reproducible deployments."
+      ],
+      "technologies": ["LangChain", "LangGraph", "LlamaIndex", "FAISS", "Chroma", "Qdrant", "Pinecone", "CLIP", "LoRA", "QLoRA", "vLLM", "Ollama", "FastAPI", "Docker", "GitHub Actions", "LangSmith", "Langfuse"]
+    },
+    {
+      "company": "Tata Consultancy Services (TCS)",
+      "role": "Assistant System Engineer",
+      "start": "2016",
+      "end": "2017",
+      "current": false,
+      "location": "Kolkata, India",
+      "highlights": [
+        "Developed and maintained automated test frameworks using Selenium WebDriver and Python, creating reusable, data-driven test scripts for end-to-end regression, functional, and cross-browser validation of enterprise CRM applications — reducing manual testing effort by over 40%.",
+        "Designed and executed large-scale automation suites for pre-release validation, covering integration testing, system testing, and production-readiness checks across monthly go-live cycles.",
+        "Collaborated with cross-functional development and production-support teams to deliver enterprise CRM solutions, ensuring application stability and business continuity.",
+        "Conducted root-cause analysis and defect triage for production incidents, partnering with development teams to resolve critical issues within SLA timelines and contributing to a 90%+ successful deployment rate.",
+        "Streamlined testing and deployment workflows through automation, continuous process improvement, and reusable test-asset libraries."
+      ],
+      "technologies": ["Selenium WebDriver", "Python", "Automated Testing", "CRM"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Agentic RAG System with Multi-Step Reasoning & Tool Integration",
+      "date": "Mar 2026",
+      "featured": true,
+      "challenge": "Complex, multi-hop queries require more than single-pass retrieval — they need decomposition, evidence gathering across sources, and grounded synthesis with verifiable citations.",
+      "solution": "A fully autonomous agentic RAG system where purpose-built agents (retriever, reasoner, verifier) collaborate through a LangGraph state machine. ReAct-style reasoning loops self-correct by evaluating retrieval quality, triggering follow-up searches on low-confidence results, and resolving multi-hop queries through iterative refinement, reflecting Corrective RAG and Adaptive RAG principles. Stateful orchestration graphs manage tool sequencing (search, calculator, code interpreter), conditional branching, persistent memory, and graceful fallback on tool failures.",
+      "outcome": "Agents produce schema-conformant JSON via Instructor and Pydantic for downstream API and agent consumption. Deployed via FastAPI with SSE streaming on Hugging Face Spaces, exposing real-time agent reasoning traces and synthesized answers through a public API surface.",
+      "technologies": ["Python", "LangChain", "LangGraph", "OpenAI", "FastAPI", "Instructor", "Pydantic", "Hugging Face Spaces"]
+    },
+    {
+      "name": "Advanced RAG Chunking Optimization & Retrieval Benchmarking System",
+      "date": "Feb 2026",
+      "featured": true,
+      "challenge": "Chunking strategy quietly determines RAG quality, yet strategy selection is often guesswork rather than measurement, leading to context fragmentation and retrieval mismatch.",
+      "solution": "A systematic empirical study across chunking strategies (fixed-size, recursive character, semantic, and parent-child), measuring impact on retrieval precision (Hit@K, MRR) and answer quality (faithfulness, relevance) with RAGAS and DeepEval. Context-preserving ingestion pipelines use configurable overlap ratios, document-structure-aware segmentation, and metadata enrichment to minimize boundary information loss, with automated harnesses evaluating chunk configurations end-to-end across retrieval and generation.",
+      "outcome": "Documented that semantic and parent-child chunking reduce retrieval mismatch by 25–40% versus naive fixed-size approaches, enabling data-driven strategy selection per document type. Integrated with FAISS vector indices supporting batch ingestion, incremental upserts, and efficient approximate nearest-neighbor search at scale.",
+      "technologies": ["Python", "LangChain", "FAISS", "OpenAI", "RAGAS", "DeepEval", "NLP"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology — Electronics & Communication Engineering",
+      "institution": "Academy of Technology (MAKAUT)",
+      "year": "2015",
+      "detail": "CGPA: 8.62 / 10"
+    }
+  ],
+  "certifications": [
+    { "name": "Fundamentals of Statistics (18.6501x)", "issuer": "MITx", "link": "" },
+    { "name": "Machine Learning with Python (6.86x)", "issuer": "MITx", "link": "" },
+    { "name": "Probability — The Science of Uncertainty and Data (6.431x)", "issuer": "MITx", "link": "" },
+    { "name": "Data Analysis: Statistical Modeling and Computation (6.419x)", "issuer": "MITx", "link": "" },
+    { "name": "Post-Graduate Certificate in Data Science, Machine Learning & AI (Part-Time)", "issuer": "", "link": "" }
+  ],
+  "awards": [],
+  "publications": [],
+  "talks": [],
+  "achievements": [
+    { "metric": "25–40%", "label": "Reduction in retrieval mismatch from semantic & parent-child chunking vs. fixed-size", "source": "Advanced RAG Chunking Optimization project" },
+    { "metric": "Sub-second", "label": "Semantic retrieval latency across large-scale document indices", "source": "Genmantra Corp" },
+    { "metric": "40%+", "label": "Reduction in manual testing effort via automated test frameworks", "source": "Tata Consultancy Services" },
+    { "metric": "90%+", "label": "Successful deployment rate via root-cause analysis and defect triage", "source": "Tata Consultancy Services" }
+  ],
+  "socials": {
+    "linkedin": "",
+    "github": ""
+  },
+  "contact": {
+    "email": "priyanka.neogi777.ece@gmail.com",
+    "phone": "+91-8334812939"
+  },
+  "technologies": ["Python", "FastAPI", "LangChain", "LangGraph", "LlamaIndex", "CrewAI", "RAG", "GraphRAG", "Corrective RAG", "Adaptive RAG", "Multi-Agent Orchestration", "MCP", "A2A", "FAISS", "Chroma", "Qdrant", "Pinecone", "pgvector", "CLIP", "Ollama", "vLLM", "Groq", "LoRA", "QLoRA", "Quantization", "Docker", "GitHub Actions", "LangSmith", "Langfuse", "RAGAS", "DeepEval", "Llama 3", "Mistral", "Gemma"]
+}

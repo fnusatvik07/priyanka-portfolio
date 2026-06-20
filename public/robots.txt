@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fnusatvik07.github.io/priyanka-portfolio/sitemap.xml
