@@ -80,28 +80,26 @@ The build copies `public/` (including `portfolio-data.json`) into `dist/`.
 
 ---
 
-## Deployment
+## Deployment — GitHub Pages (live)
 
-The output in `dist/` is a static site — deploy anywhere.
+This repo is deployed to GitHub Pages via GitHub Actions.
 
-**Vercel / Netlify**
-- Build command: `npm run build`
-- Output directory: `dist`
-- (Framework preset: Vite.)
+- **Live URL:** <https://fnusatvik07.github.io/priyanka-portfolio/>
+- **Workflow:** `.github/workflows/deploy.yml` builds and publishes on every push to `main` — no `dist/` is committed.
+- **Base path:** set in `vite.config.ts` to `/priyanka-portfolio/` for production builds only (dev stays at `/`). The runtime data/video fetches use `import.meta.env.BASE_URL`, so they follow the base path automatically.
 
-**GitHub Pages**
+To deploy an update, just push to `main`:
 ```bash
-npm run build
-# push the contents of dist/ to the gh-pages branch (or use an action)
+git add -A && git commit -m "update" && git push
 ```
-If hosting under a sub-path (e.g. `user.github.io/portfolio/`), set `base: '/portfolio/'` in `vite.config.ts`. The data fetch already uses `import.meta.env.BASE_URL`, so it follows the base path automatically.
 
-**Any static host / S3 / Cloudflare Pages**
-- Upload the `dist/` folder.
+If you rename the repo, update the `base` in `vite.config.ts` and the absolute URLs in `index.html`, `public/robots.txt`, and `public/sitemap.xml`.
 
-### Before going live
-- Replace the placeholder domain `https://priyankaneogi.dev/` in `index.html`, `public/robots.txt`, and `public/sitemap.xml` with your real URL.
-- Add real links to `portfolio-data.json` (see *Adding your links*).
+### Other hosts (Vercel / Netlify / S3 / Cloudflare)
+The output in `dist/` is a plain static site. Build with `npm run build` (output dir `dist`). On a root domain, set `base` back to `'/'`.
+
+### Before sharing widely
+- Add real links to `portfolio-data.json` (see *Adding your links*), then `npm run sync-data` and push.
 
 ---
 
